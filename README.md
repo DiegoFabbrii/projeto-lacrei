@@ -30,3 +30,9 @@ Para rodar o projeto, execute o seguinte comando:
 ```shell
 npm run develop
 ```
+
+## Tecnologias
+
+* Gatsby
+* styled-components
+* Typescript
