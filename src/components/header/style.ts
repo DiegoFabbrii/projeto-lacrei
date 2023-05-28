@@ -2,7 +2,6 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   background-color: #eee;
-  height: 60px;
 `;
 
 export const Navigation = styled.nav`
@@ -51,8 +50,11 @@ export const NavList = styled.ul`
 
     :hover {
       filter: brightness(170%);
-      /* color: #6f6f6f; */
     }
+  }
+
+  [aria-current="page"] {
+    color: #018762;
   }
 
   @media only screen and (max-width: 529px) {
