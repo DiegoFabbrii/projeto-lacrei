@@ -7,7 +7,7 @@ import { Footer } from "../footer";
 import * as S from "./style";
 
 interface LayoutProps {
-  children: React.ReactElement;
+  children: React.ReactNode;
 }
 
 export const Layout = ({ children }: LayoutProps) => {
