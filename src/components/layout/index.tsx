@@ -12,11 +12,11 @@ interface LayoutProps {
 
 export const Layout = ({ children }: LayoutProps) => {
   return (
-    <>
+    <S.Wrapper>
       <GlobalStyle />
       <Header />
       <S.Container>{children}</S.Container>
       <Footer />
-    </>
+    </S.Wrapper>
   );
 };

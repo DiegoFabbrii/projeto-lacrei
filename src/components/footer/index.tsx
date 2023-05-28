@@ -13,7 +13,7 @@ export const Footer = () => {
         </li>
 
         <li>
-          <Link to="/pessoa-usuario">Pessoa Usuário</Link>
+          <Link to="/pessoa-usuaria">Pessoa Usuário</Link>
         </li>
 
         <li>
