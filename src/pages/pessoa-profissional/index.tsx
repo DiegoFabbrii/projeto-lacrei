@@ -13,4 +13,15 @@ const Professional = () => {
 
 export default Professional;
 
-export const Head: HeadFC = () => <title>Pessoa Profissional</title>;
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="pt-BR" />
+      <title>Pessoa Profissional</title>
+      <meta
+        name="description"
+        content="Página que descreve que tipo de profissionais da saúde a lacrei Saúde busca recrutar"
+      />
+    </>
+  );
+};
