@@ -21,21 +21,30 @@ export const Footer = () => {
         </li>
       </S.FooterList>
       <S.SocialMedias>
-        <S.SocialMediaItem href="https://www.facebook.com/lacrei.saude">
+        <S.SocialMediaItem
+          href="https://www.facebook.com/lacrei.saude"
+          target="_blank"
+        >
           <StaticImage
             src="../../assets/facebook-logo.svg"
             alt="facebook logo"
           />
         </S.SocialMediaItem>
 
-        <S.SocialMediaItem href="https://www.instagram.com/lacrei.saude/">
+        <S.SocialMediaItem
+          href="https://www.instagram.com/lacrei.saude/"
+          target="_blank"
+        >
           <StaticImage
             src="../../assets/instagram-logo.svg"
             alt="instagram logo"
           />
         </S.SocialMediaItem>
 
-        <S.SocialMediaItem href="https://www.linkedin.com/company/lacrei">
+        <S.SocialMediaItem
+          href="https://www.linkedin.com/company/lacrei"
+          target="_blank"
+        >
           <StaticImage
             src="../../assets/linkedin-logo.svg"
             alt="linkedin logo"
