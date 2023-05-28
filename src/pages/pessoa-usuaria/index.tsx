@@ -13,4 +13,15 @@ const User = () => {
 
 export default User;
 
-export const Head: HeadFC = () => <title>Pessoa Usuária</title>;
+export const Head: HeadFC = () => {
+  return (
+    <>
+      <html lang="pt-BR" />
+      <title>Pessoa Usuária</title>
+      <meta
+        name="description"
+        content="Página que descreve como é o atendimento que a Lacrei Saúde garante a pessoas LGBTQIAPN+"
+      />
+    </>
+  );
+};
