@@ -30,6 +30,7 @@ Para rodar o projeto, execute o seguinte comando:
 ```shell
 npm run develop
 ```
+O projeto será compilado e estará disponível em http://localhost:8000/.
 
 ## Tecnologias
 
