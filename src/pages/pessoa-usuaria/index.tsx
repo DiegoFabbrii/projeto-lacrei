@@ -13,4 +13,4 @@ const User = () => {
 
 export default User;
 
-export const Head: HeadFC = () => <title>Home Page</title>;
+export const Head: HeadFC = () => <title>Pessoa Usuária</title>;
