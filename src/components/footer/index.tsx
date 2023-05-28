@@ -51,6 +51,8 @@ export const Footer = () => {
           />
         </S.SocialMediaItem>
       </S.SocialMedias>
+
+      <S.Span>Desafio Front-End Lacrei</S.Span>
     </S.Container>
   );
 };

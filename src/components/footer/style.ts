@@ -46,3 +46,10 @@ export const SocialMediaItem = styled.a`
     filter: brightness(130%);
   }
 `;
+
+export const Span = styled.span`
+  color: #515151;
+  font-size: 0.75rem;
+
+  margin-bottom: 8px;
+`;
