@@ -9,7 +9,7 @@ Siga estas etapas para instalar e executar o projeto:
 1. Clone este repositório para o seu computador:
 
 ```shell
-git clone https://github.com/DiegoFabbrii/projeto-lacrei.git
+https://github.com/DiegoFabbrii/projeto-lacrei.git
 ```
 2. Acesse o projeto:
 
