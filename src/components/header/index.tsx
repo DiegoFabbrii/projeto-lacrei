@@ -20,7 +20,7 @@ export const Header = () => {
           </li>
 
           <li>
-            <Link to="/profissional">Profissional</Link>
+            <Link to="/pessoa-profissional">Profissional</Link>
           </li>
         </S.NavList>
       </S.Navigation>

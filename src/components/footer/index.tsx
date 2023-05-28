@@ -17,7 +17,7 @@ export const Footer = () => {
         </li>
 
         <li>
-          <Link to="/profissional">Profissional</Link>
+          <Link to="/pessoa-profissional">Profissional</Link>
         </li>
       </S.FooterList>
       <S.SocialMedias>

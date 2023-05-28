@@ -26,6 +26,7 @@ export const Navigation = styled.nav`
 
 export const Logo = styled.div`
   font-size: 2rem;
+  font-weight: 700;
 
   a {
     color: #018762;

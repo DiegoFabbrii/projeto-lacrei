@@ -19,11 +19,11 @@ export const HomePage = () => {
 
         <S.ButtonsContainer>
           <Button bgColor="#018762" textColor="#fff">
-            <Link to="/pessoa-usuario">Pessoa Usuário</Link>
+            <Link to="/pessoa-usuaria">Pessoa Usuária</Link>
           </Button>
 
           <Button bgColor="#fff" borderColor="#018762" textColor="#018762">
-            <Link to="/profissional">Profissional</Link>
+            <Link to="/pessoa-profissional">Profissional</Link>
           </Button>
         </S.ButtonsContainer>
       </div>

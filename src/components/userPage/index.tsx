@@ -12,8 +12,6 @@ export const UserPage = () => {
       <div>
         <S.Title>Pessoa Usuária</S.Title>
         <S.ContentContainer>
-          <S.Line />
-
           <S.Text>
             A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento
             realizado por profissionais de qualidade e que atendam às suas
