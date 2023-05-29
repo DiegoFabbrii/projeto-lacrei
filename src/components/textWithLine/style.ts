@@ -2,8 +2,6 @@ import styled from "styled-components";
 
 export const ContentContainer = styled.div`
   position: relative;
-
-  margin-top: 32px;
 `;
 
 export const Text = styled.p`
@@ -12,6 +10,7 @@ export const Text = styled.p`
   font-size: 1.5rem;
   color: #515151;
 
+  margin-top: 32px;
   margin-left: 18px;
 
   ::before {
@@ -26,6 +25,8 @@ export const Text = styled.p`
 
   @media only screen and (max-width: 1040px) {
     font-size: 1.25rem;
+
+    margin-top: 16px;
   }
 
   @media only screen and (max-width: 520px) {
