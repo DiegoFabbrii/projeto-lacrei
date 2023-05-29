@@ -43,7 +43,7 @@ export const SocialMedias = styled.div`
 export const SocialMediaItem = styled.a`
   transition: 0.2s;
   :hover {
-    filter: brightness(130%);
+    color: #6d6d6d;
   }
 `;
 

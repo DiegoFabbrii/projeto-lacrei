@@ -33,7 +33,7 @@ export const Logo = styled.div`
     transition: all 0.2s ease 0s;
 
     :hover {
-      filter: brightness(140%);
+      color: #00bc88;
     }
   }
 `;
@@ -50,12 +50,16 @@ export const NavList = styled.ul`
     transition: all 0.2s ease 0s;
 
     :hover {
-      filter: brightness(170%);
+      color: #6d6d6d;
     }
   }
 
-  [aria-current="page"] {
+  a[aria-current="page"] {
     color: #018762;
+
+    :hover {
+      color: #00bc88;
+    }
   }
 
   @media only screen and (max-width: 529px) {
