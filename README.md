@@ -34,6 +34,7 @@ O projeto será compilado e estará disponível em `http://localhost:8000/`.
 
 ## Tecnologias
 
+* React
 * Gatsby
 * styled-components
 * Typescript
