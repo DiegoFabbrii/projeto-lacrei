@@ -1,6 +1,10 @@
 import * as React from "react";
+
 import * as S from "./style";
+
 import { Link } from "gatsby";
+
+import { links } from "../../data/links";
 
 export const Header = () => {
   return (
@@ -11,17 +15,11 @@ export const Header = () => {
         </S.Logo>
 
         <S.NavList>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-
-          <li>
-            <Link to="/pessoa-usuaria">Pessoa Usuário</Link>
-          </li>
-
-          <li>
-            <Link to="/pessoa-profissional">Profissional</Link>
-          </li>
+          {links.map(({ label, link }) => (
+            <li key={label}>
+              <Link to={link}>{label}</Link>
+            </li>
+          ))}
         </S.NavList>
       </S.Navigation>
     </S.Container>

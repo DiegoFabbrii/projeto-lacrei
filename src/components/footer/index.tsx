@@ -3,23 +3,20 @@ import * as S from "./style";
 import { Link } from "gatsby";
 
 import { StaticImage } from "gatsby-plugin-image";
+import { links } from "../../data/links";
+import { socialMedias } from "../../data/socialMedias";
 
 export const Footer = () => {
   return (
     <S.Container>
       <S.FooterList>
-        <li>
-          <Link to="/">Home</Link>
-        </li>
-
-        <li>
-          <Link to="/pessoa-usuaria">Pessoa Usuário</Link>
-        </li>
-
-        <li>
-          <Link to="/pessoa-profissional">Profissional</Link>
-        </li>
+        {links.map(({ label, link }) => (
+          <li key={label}>
+            <Link to={link}>{label}</Link>
+          </li>
+        ))}
       </S.FooterList>
+
       <S.SocialMedias>
         <S.SocialMediaItem
           href="https://www.facebook.com/lacrei.saude"
