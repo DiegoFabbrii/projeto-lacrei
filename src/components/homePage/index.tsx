@@ -6,16 +6,18 @@ import { Link } from "gatsby";
 
 import { StaticImage } from "gatsby-plugin-image";
 import { Container } from "../container";
+import { Title } from "../title";
+import { Text } from "../text";
 
 export const HomePage = () => {
   return (
     <Container>
       <div>
-        <S.Title>Boas vindas a Lacrei Saúde</S.Title>
+        <Title>Boas vindas a Lacrei Saúde</Title>
 
-        <S.Text>
+        <Text>
           Uma plataforma segura e acolhedora para a comunidade LGBTQIAPN+
-        </S.Text>
+        </Text>
 
         <S.ButtonsContainer>
           <Link to="/pessoa-usuaria">
@@ -32,13 +34,11 @@ export const HomePage = () => {
         </S.ButtonsContainer>
       </div>
 
-      <S.Svg>
-        <StaticImage
-          src="../../assets/home.svg"
-          alt="Imagem ilustrativa da página inicial"
-          quality={100}
-        />
-      </S.Svg>
+      <StaticImage
+        src="../../assets/home.svg"
+        alt="Imagem ilustrativa da página inicial"
+        quality={100}
+      />
     </Container>
   );
 };

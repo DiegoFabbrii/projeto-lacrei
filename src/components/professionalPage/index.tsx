@@ -4,21 +4,19 @@ import { Container } from "../container";
 
 import { StaticImage } from "gatsby-plugin-image";
 
-import * as S from "./style";
+import { Title } from "../title";
+import { TextWithLine } from "../textWithLine";
 
 export const ProfessionalPage = () => {
   return (
     <Container>
       <div>
-        <S.Title>Profissional</S.Title>
+        <Title>Profissional</Title>
 
-        <S.ContentContainer>
-          <S.Text>
-            Buscamos recrutar pessoas profissionais da saúde que entendam as
-            necessidades e se comprometam com o bem-estar da comunidade
-            LGBTQIAPN+
-          </S.Text>
-        </S.ContentContainer>
+        <TextWithLine>
+          Buscamos recrutar pessoas profissionais da saúde que entendam as
+          necessidades e se comprometam com o bem-estar da comunidade LGBTQIAPN+
+        </TextWithLine>
       </div>
 
       <StaticImage

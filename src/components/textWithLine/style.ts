@@ -1,19 +1,5 @@
 import styled from "styled-components";
 
-export const Title = styled.h1`
-  font-size: 3rem;
-  color: #1f1f1f;
-
-  @media only screen and (max-width: 1040px) {
-    font-size: 2rem;
-  }
-
-  @media only screen and (max-width: 520px) {
-    text-align: center;
-    font-size: 1.75rem;
-  }
-`;
-
 export const ContentContainer = styled.div`
   position: relative;
 

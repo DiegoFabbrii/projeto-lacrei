@@ -3,21 +3,19 @@ import * as React from "react";
 import { StaticImage } from "gatsby-plugin-image";
 
 import { Container } from "../container";
-
-import * as S from "./style";
+import { Title } from "../title";
+import { TextWithLine } from "../textWithLine";
 
 export const UserPage = () => {
   return (
     <Container>
       <div>
-        <S.Title>Pessoa Usuária</S.Title>
-        <S.ContentContainer>
-          <S.Text>
-            A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento
-            realizado por profissionais de qualidade e que atendam às suas
-            necessidades de forma segura e acolhedora.
-          </S.Text>
-        </S.ContentContainer>
+        <Title>Pessoa Usuária</Title>
+        <TextWithLine>
+          A Lacrei garante que pessoas LGBTQIAPN + recebam atendimento realizado
+          por profissionais de qualidade e que atendam às suas necessidades de
+          forma segura e acolhedora.
+        </TextWithLine>
       </div>
 
       <StaticImage
